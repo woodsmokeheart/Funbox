@@ -1,0 +1,41 @@
+@import 'src/style/variable.scss';
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 28px 0 5px 0;
+  text-align: center;
+  background-color: darkslateblue;
+  color: $var16;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    a + a {
+      margin-left: 12px;
+      &:before {
+        content: '|';
+        margin-right: 12px;
+      }
+    }
+  }
+
+  a {
+    color: $var16;
+    text-decoration: none;
+
+    &:hover {
+      color: $var1;
+      text-decoration: none;
+    }
+  }
+
+  p {
+    padding: 0 0 10px 0;
+  }
+}

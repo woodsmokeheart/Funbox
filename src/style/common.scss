@@ -1,0 +1,42 @@
+@import './variable.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.2em;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+h1, h2 {
+  font: normal 170% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+a {
+  outline: none;
+  text-decoration: underline;
+  color: $var6;
+}
+
+ul {
+  margin: 2px 0 22px 17px;
+
+  li {
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+  }
+}
+

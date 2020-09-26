@@ -1,0 +1,18 @@
+@import 'src/style/variable.scss';
+
+.films_block {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: -5px;
+
+  a {
+    margin-left: 5px;
+    border-radius: 5px;
+    border: solid 5px $var12;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}

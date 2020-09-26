@@ -1,0 +1,42 @@
+@import 'src/style/variable.scss';
+.wrap{
+
+}
+.pictureIntestellar1{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  img{
+    border-radius: 5px;
+    border: solid 5px $var12;
+    &:hover {
+      border:solid 5px $var6;
+
+    }
+  }
+}
+.infoFilmPage {
+  display: flex;
+  justify-content: center;
+  font: normal 100% 'trebuchet ms', sans-serif;
+  padding-top: 12px;
+  div {
+    margin-left: 15px;
+  }
+
+}
+.descriptionFilm{
+  font-size: 1em;
+
+}
+hr {
+  margin-top: 25px;
+  border: solid 1px $var9;
+}
+h2 {
+  text-align: center;
+}
+.descriptionFilm{
+  text-align: center;
+  padding: 5px 150px 30px 150px;
+}
